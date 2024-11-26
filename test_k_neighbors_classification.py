@@ -78,7 +78,7 @@ def test_edge_case_single_neighbor():
 
     # Test with a single neighbor
     acc = predict_and_evaluate_knn(knn, X, y)
-    assert acc == 1.0  # Perfect accuracy with k=1 on training data
+    assert acc == 1.0000  # Perfect accuracy with k=1 on training data to 4 decimal places
 
 
 def test_high_dimensional_data():
